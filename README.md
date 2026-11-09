@@ -83,7 +83,14 @@ Every device obeys **energy causality** (it cannot consume more than the harvest
 The goal is to maximize the weighted sum computation rate of the network by jointly optimizing the collaboration strategy $\psi=\{m,\mathcal{O},\mathcal{P},\mathcal{Q}\}$, the time allocation $\boldsymbol{\alpha}=(\alpha_1,\alpha_2)$, and the data allocation $\mathbf{l}$:
 
 $$
-\max_{\psi,\ \boldsymbol{\alpha},\ \mathbf{l}}\ \sum_{i=1}^{m}\Big\{w_{o_i}\big(l^{loc}_{o_i}+l^{ap}_{o_i}+l^{p_i}_{o_i}\big)+w_{p_i}\,l^{loc}_{p_i}\Big\}+\sum_{k=1}^{N-2m}w_{q_k}\big(l^{loc}_{q_k}+l^{ap}_{q_k}\big),
+\max_{\psi,\boldsymbol{\alpha},\mathbf{l}}
+\sum_{i=1}^{m}
+\left\{
+w_{o_i}\left(l_{o_i}^{loc}+l_{o_i}^{ap}+l_{o_i}^{p_i}\right)
++w_{p_i}l_{p_i}^{loc}
+\right\}
++\sum_{k=1}^{N-2m}
+w_{q_k}\left(l_{q_k}^{loc}+l_{q_k}^{ap}\right)
 $$
 
 subject to
