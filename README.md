@@ -85,10 +85,10 @@ The goal is to maximize the weighted sum computation rate of the network by join
 $$
 \max_{\psi,\boldsymbol{\alpha},\mathbf{l}}
 \sum_{i=1}^{m}
-\left\{
+\left(
 w_{o_i}\left(l_{o_i}^{loc}+l_{o_i}^{ap}+l_{o_i}^{p_i}\right)
 +w_{p_i}l_{p_i}^{loc}
-\right\}
+\right)
 +\sum_{k=1}^{N-2m}
 w_{q_k}\left(l_{q_k}^{loc}+l_{q_k}^{ap}\right)
 $$
