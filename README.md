@@ -174,10 +174,4 @@ If you find this work useful, please cite:
 ## Contact
 
 For questions about this work, please contact please contact the first author Yang Li (ylibupt@163.com), or the corresponding author **Xing Zhang** (zhangx@ieee.org).
-=======
-# Code-of-algorithms-for-Wireless-Powered-Edge-Computing
-The source code of algorithms in paper "Computation Rate Maximization for Wireless Powered Edge Computing With Multi-User Cooperation".
-Detailed description of the code is being written.
 
-https://ieeexplore.ieee.org/document/10413502
->>>>>>> origin/main
