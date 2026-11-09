@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div align="center">
 
 # Computation Rate Maximization for Wireless-Powered Edge Computing<br>With Multi-User Cooperation
